@@ -6,3 +6,7 @@ The purpose of this analysis was to perform an ETL using Python and the Pandas l
 The transformed data from the three datasets yielded the table below.
 ![Transformed Movie Data](Transformed_Movie_Data.png)<br/>
 
+Once the extraction and transformation was completed, the tables were loaded into a PostgreSQL database.
+![Movies Query](Resources/movies_query.png)<br/>
+
+![Ratings Query](Resources/ratings_query.png)<br/>
